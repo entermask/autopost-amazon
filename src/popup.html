@@ -1,0 +1,62 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+  body {
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 100%;
+    min-width: 300px;
+    min-height: 150px;
+    padding: 10px;
+  }
+
+  div {
+    padding: 5px;
+  }
+
+  .total {
+    color: orange;
+  }
+
+  .success {
+    color: green;
+  }
+
+  .failed {
+    color: red;
+  }
+
+  button {
+    padding: 10px 20px;
+    color: blue;
+    background: #fff;
+    border: 1px solid;
+    transition: all.3s;
+  }
+
+  button:hover {
+    background: blue;
+    color: #fff;
+  }
+
+  #update {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+</style>
+<body>
+  <b>AMAZON AUTO ANALYTICS</b>
+  <div class="total">Tổng số: <span id="total">0</span></div>
+  <div class="success">Thành công: <span id="success">0</span></div>
+  <div class="failed">Thất bại: <span id="failed">0</span></div>
+  <div class="now">Vị trí auto: <span id="now">1</span></div>
+  <div><button></button></div>
+  <div>Powered by: <a href="https://dev.vivoo.vn">https://dev.vivoo.vn</a></div>
+  <div><span id="update">RESET</span> - chỉ dùng khi file list.js đc cập nhật</div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+window.onload = function() {
+    var port = chrome.extension.connect({ name: "Launch" });
+    document.getElementById("button").onclick = function() {
+        port.postMessage({ type: "Launch"});
+    }
+}
