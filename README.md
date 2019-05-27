@@ -1,1 +1,2 @@
-# autopost-amazon
+# Amazon AutoPost
+Extension Chrome
